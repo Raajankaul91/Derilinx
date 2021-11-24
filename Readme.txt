@@ -36,9 +36,14 @@ posiisble co-ordinate faster.
 
 3) The Counties.geojason file has been saved locally, so, it will help with faster and latancy free data retrival.
 
+4) if we use both ways of getting the dataset i.e. API and local file then we try 2 ways of getting the data. If one fails
+then other way might work
+
 ________________________________________________________________________________________________________________________________________
 
 Disadvantages:
 
 1) Using the API for getting the dataset means if there is any network issue then the code will not work.
+
+2) Saving a small file locally is fine but as the dataset grows then it can use a lot of system storage.
 
